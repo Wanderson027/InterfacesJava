@@ -12,3 +12,5 @@ package-lock.json
 !.gitignore
 !.npmignore
 !.travis.yml
+/JavaApplication2/nbproject/private/
+/JavaApplication2/build/
