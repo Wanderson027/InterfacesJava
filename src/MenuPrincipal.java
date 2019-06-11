@@ -61,6 +61,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         PainelMenu.setBackground(new java.awt.Color(208, 245, 186));
 
         jButton1.setBackground(new java.awt.Color(67, 249, 16));
+        jButton1.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 11)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/swing/Preppy-icon.png"))); // NOI18N
         jButton1.setText("Cadastrar Funcionarios");
 
