@@ -39,7 +39,7 @@ public class TelaLogin extends javax.swing.JFrame {
         setBackground(new java.awt.Color(0, 0, 255));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(78, 171, 51));
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setName("Unifarm"); // NOI18N
 
@@ -145,13 +145,13 @@ public class TelaLogin extends javax.swing.JFrame {
     private void txtLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLoginActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtLoginActionPerformed
-
+    public boolean checklogin(String login, String senha){
+        return login.equals("usuario")&& senha.equals("1234");
+    }
     private void botaoEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoEnviarActionPerformed
-        if(txtLogin.getText().equals("usuario")&&txtSenha.getText().equals("1234")){
-          JOptionPane.showMessageDialog(null, "Bem vindo!"); 
-        }else{
-        JOptionPane.showMessageDialog(null, "Senha e usuario invalido!");
-        }
+       if(this.checklogin(txtLogin.getText(), new String(txtSenha.getPassword())));
+       new MenuPrincipal().setVisible(true);
+       this.dispose();
     }//GEN-LAST:event_botaoEnviarActionPerformed
 
     private void txtSenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSenhaActionPerformed
