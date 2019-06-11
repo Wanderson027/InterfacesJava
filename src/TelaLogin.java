@@ -39,7 +39,7 @@ public class TelaLogin extends javax.swing.JFrame {
         setBackground(new java.awt.Color(0, 0, 255));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(78, 171, 51));
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setName("Unifarm"); // NOI18N
 
