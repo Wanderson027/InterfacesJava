@@ -62,6 +62,7 @@ public class TelaLogin1 extends javax.swing.JFrame {
 
         jButton1.setText("ENTRAR");
 
+        txtLogin.setBackground(new java.awt.Color(204, 204, 204));
         txtLogin.setFont(new java.awt.Font("Dialog", 2, 14)); // NOI18N
         txtLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,7 +70,7 @@ public class TelaLogin1 extends javax.swing.JFrame {
             }
         });
 
-        txtSenha.setText("1234");
+        txtSenha.setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel2.setText("LOGIN");
 
