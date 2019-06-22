@@ -63,7 +63,6 @@ public class TelaLogin1 extends javax.swing.JFrame {
         jButton1.setText("ENTRAR");
 
         txtLogin.setFont(new java.awt.Font("Dialog", 2, 14)); // NOI18N
-        txtLogin.setText("usuario");
         txtLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtLoginActionPerformed(evt);
