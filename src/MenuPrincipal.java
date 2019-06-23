@@ -213,7 +213,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_JsairActionPerformed
 
     private void VendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VendasActionPerformed
-        new Vendas().setVisible(true);
+      new Vendas().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_VendasActionPerformed
 
