@@ -157,7 +157,11 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
               <Image iconType="3" name="/images/concluido.png"/>
+=======
+              <Image iconType="3" name="/images/sale-icon.png"/>
+>>>>>>> carlos
             </Property>
             <Property name="text" type="java.lang.String" value="VENDAS"/>
           </Properties>
@@ -177,7 +181,11 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
               <Image iconType="3" name="/images/Cadastrar funcionarios.png"/>
+=======
+              <Image iconType="3" name="/images/Preppy-icon.png"/>
+>>>>>>> carlos
             </Property>
             <Property name="text" type="java.lang.String" value="CADASTRAR FUNCIONARIOS"/>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -200,7 +208,11 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+<<<<<<< HEAD
               <Image iconType="3" name="/images/Cadastrar remedios.png"/>
+=======
+              <Image iconType="3" name="/images/Healthcare-Pill-icon.png"/>
+>>>>>>> carlos
             </Property>
             <Property name="text" type="java.lang.String" value="CADASTRAR REM&#xc9;DIOS"/>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -222,6 +234,9 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/User-Group-icon.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="CADASTRAR CLIENTES"/>
           </Properties>
           <Events>
@@ -238,6 +253,9 @@
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/Box-icon.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ESTOQUE"/>
           </Properties>
@@ -263,6 +281,9 @@
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/13416400251535694869-16.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="CONSULTAR MEDICAMENTOS"/>
           </Properties>
