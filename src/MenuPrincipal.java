@@ -56,6 +56,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         Vendas.setBackground(new java.awt.Color(78, 171, 51));
         Vendas.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         Vendas.setForeground(new java.awt.Color(255, 255, 255));
+        Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sale-icon.png"))); // NOI18N
         Vendas.setText("VENDAS");
         Vendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,6 +67,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CadastrarFuncionario.setBackground(new java.awt.Color(78, 171, 51));
         CadastrarFuncionario.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         CadastrarFuncionario.setForeground(new java.awt.Color(255, 255, 255));
+        CadastrarFuncionario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Preppy-icon.png"))); // NOI18N
         CadastrarFuncionario.setText("CADASTRAR FUNCIONARIOS");
         CadastrarFuncionario.setPreferredSize(new java.awt.Dimension(91, 25));
         CadastrarFuncionario.addActionListener(new java.awt.event.ActionListener() {
@@ -77,6 +79,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CadastrarRemedios.setBackground(new java.awt.Color(78, 171, 51));
         CadastrarRemedios.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         CadastrarRemedios.setForeground(new java.awt.Color(255, 255, 255));
+        CadastrarRemedios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Healthcare-Pill-icon.png"))); // NOI18N
         CadastrarRemedios.setText("CADASTRAR REMÉDIOS");
         CadastrarRemedios.setPreferredSize(new java.awt.Dimension(91, 25));
         CadastrarRemedios.addActionListener(new java.awt.event.ActionListener() {
@@ -88,6 +91,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CadastrarClientes.setBackground(new java.awt.Color(78, 171, 51));
         CadastrarClientes.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         CadastrarClientes.setForeground(new java.awt.Color(255, 255, 255));
+        CadastrarClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/User-Group-icon.png"))); // NOI18N
         CadastrarClientes.setText("CADASTRAR CLIENTES");
         CadastrarClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,6 +102,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         Estoque.setBackground(new java.awt.Color(78, 171, 51));
         Estoque.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         Estoque.setForeground(new java.awt.Color(255, 255, 255));
+        Estoque.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Box-icon.png"))); // NOI18N
         Estoque.setText("ESTOQUE");
         Estoque.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,6 +120,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         ConsultarMedicamento.setBackground(new java.awt.Color(78, 171, 51));
         ConsultarMedicamento.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         ConsultarMedicamento.setForeground(new java.awt.Color(255, 255, 255));
+        ConsultarMedicamento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/13416400251535694869-16.png"))); // NOI18N
         ConsultarMedicamento.setText("CONSULTAR MEDICAMENTOS");
         ConsultarMedicamento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
