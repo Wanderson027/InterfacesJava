@@ -9,6 +9,8 @@
  * @author Rafael
  */
 public class CadastrarFuncionarios extends javax.swing.JFrame {
+    //
+    
 
     /**
      * Creates new form CadastrarFuncionarios
