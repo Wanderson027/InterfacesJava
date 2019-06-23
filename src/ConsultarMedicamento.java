@@ -52,7 +52,6 @@ public class ConsultarMedicamento extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(16, 156, 1));
         jButton2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/13416400251535694869-16.png"))); // NOI18N
         jButton2.setText("Consultar");
