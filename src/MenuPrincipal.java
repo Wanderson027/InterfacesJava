@@ -21,8 +21,12 @@ public class MenuPrincipal extends javax.swing.JFrame {
         Estoque = new javax.swing.JButton();
         Jsair = new javax.swing.JToggleButton();
         ConsultarMedicamento = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Menu Principal");
         setAlwaysOnTop(true);
         setBackground(new java.awt.Color(78, 171, 51));
 
@@ -123,7 +127,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(175, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Vendas, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Jsair)
@@ -153,6 +157,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addComponent(Jsair)
                 .addContainerGap(29, Short.MAX_VALUE))
         );
+
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -198,14 +210,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_ConsultarMedicamentoActionPerformed
 
+    private void JsairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JsairActionPerformed
+     this.dispose();
+    }//GEN-LAST:event_JsairActionPerformed
+
     private void VendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VendasActionPerformed
         new Vendas().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_VendasActionPerformed
-
-    private void JsairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JsairActionPerformed
-     this.dispose();
-    }//GEN-LAST:event_JsairActionPerformed
 
     public static void main(String args[]) {
       
@@ -248,6 +260,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JToggleButton Jsair;
     private javax.swing.JButton Vendas;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
