@@ -8,9 +8,6 @@
  *
  * @author Rafael
  */
-public class ConsultarMedicamentos {
-
-    public ConsultarMedicamentos() {
-    }
+class JOptionpane {
     
 }
