@@ -119,18 +119,25 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="159" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="Vendas" min="-2" pref="253" max="-2" attributes="0"/>
-                      <Component id="Jsair" min="-2" max="-2" attributes="0"/>
-                      <Component id="CadastrarRemedios" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
-                      <Component id="CadastrarClientes" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
-                      <Component id="ConsultarMedicamento" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
-                      <Component id="Estoque" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
-                      <Component id="CadastrarFuncionario" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="Vendas" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="CadastrarRemedios" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="CadastrarClientes" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="ConsultarMedicamento" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="Estoque" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+                              <Component id="CadastrarFuncionario" alignment="1" min="-2" pref="253" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="Jsair" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -149,9 +156,9 @@
                   <Component id="ConsultarMedicamento" min="-2" pref="41" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="Estoque" min="-2" pref="37" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" pref="52" max="32767" attributes="0"/>
+                  <EmptySpace pref="56" max="32767" attributes="0"/>
                   <Component id="Jsair" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="47" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -265,6 +272,9 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="Jsair">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/iconfinder_ic_exit_to_app_48px_352328.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Sair"/>
           </Properties>
           <Events>
