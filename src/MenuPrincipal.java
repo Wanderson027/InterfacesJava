@@ -39,40 +39,12 @@ public class MenuPrincipal extends javax.swing.JFrame {
         setAlwaysOnTop(true);
         setBackground(new java.awt.Color(78, 171, 51));
 
-<<<<<<< HEAD
-        jPanel1.setBackground(new java.awt.Color(78, 171, 51));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/unifarm-peq.png"))); // NOI18N
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(128, 128, 128))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addGap(117, 117, 117))
-        );
-
-=======
->>>>>>> 37a2ee2098130fac65c4e71ad47a40a42e858394
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         Vendas.setBackground(new java.awt.Color(78, 171, 51));
         Vendas.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         Vendas.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
-        Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/concluido.png"))); // NOI18N
-=======
         Vendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sale-icon.png"))); // NOI18N
->>>>>>> 37a2ee2098130fac65c4e71ad47a40a42e858394
         Vendas.setText("VENDAS");
         Vendas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,11 +55,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CadastrarFuncionario.setBackground(new java.awt.Color(78, 171, 51));
         CadastrarFuncionario.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         CadastrarFuncionario.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
-        CadastrarFuncionario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Cadastrar funcionarios.png"))); // NOI18N
-=======
         CadastrarFuncionario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Preppy-icon.png"))); // NOI18N
->>>>>>> 37a2ee2098130fac65c4e71ad47a40a42e858394
         CadastrarFuncionario.setText("CADASTRAR FUNCIONARIOS");
         CadastrarFuncionario.setPreferredSize(new java.awt.Dimension(91, 25));
         CadastrarFuncionario.addActionListener(new java.awt.event.ActionListener() {
@@ -99,11 +67,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CadastrarRemedios.setBackground(new java.awt.Color(78, 171, 51));
         CadastrarRemedios.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         CadastrarRemedios.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
-        CadastrarRemedios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Cadastrar remedios.png"))); // NOI18N
-=======
         CadastrarRemedios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Healthcare-Pill-icon.png"))); // NOI18N
->>>>>>> 37a2ee2098130fac65c4e71ad47a40a42e858394
         CadastrarRemedios.setText("CADASTRAR REMÉDIOS");
         CadastrarRemedios.setPreferredSize(new java.awt.Dimension(91, 25));
         CadastrarRemedios.addActionListener(new java.awt.event.ActionListener() {
@@ -157,19 +121,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(163, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(Jsair)
-                    .addComponent(CadastrarRemedios, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
-                    .addComponent(CadastrarClientes, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
-                    .addComponent(ConsultarMedicamento, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
-                    .addComponent(Estoque, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
-                    .addComponent(CadastrarFuncionario, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 265, Short.MAX_VALUE)
-                    .addComponent(Vendas, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(151, 151, 151))
-=======
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -185,7 +136,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addComponent(Jsair)
                         .addGap(112, 112, 112))))
->>>>>>> 37a2ee2098130fac65c4e71ad47a40a42e858394
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
