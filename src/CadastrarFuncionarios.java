@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -71,6 +74,7 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cadastrar Funcionarios");
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/iconfinder_ic_exit_to_app_48px_352328.png"))); // NOI18N
         jButton1.setText("Voltar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,19 +90,19 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setText("Nome");
+        jLabel3.setText("Nome *");
 
-        jLabel4.setText("Endereço");
+        jLabel4.setText("Endereço *");
 
-        jLabel5.setText("Telefone");
+        jLabel5.setText("Telefone *");
 
-        jLabel6.setText("Email");
+        jLabel6.setText("Email *");
 
-        jLabel7.setText("Salário");
+        jLabel7.setText("Salário *");
 
-        jLabel8.setText("RG");
+        jLabel8.setText("RG *");
 
-        jLabel9.setText("CPF");
+        jLabel9.setText("CPF *");
 
         jLabel10.setText("CTPS");
 
@@ -144,6 +148,7 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
             }
         });
 
+        jTextField8.setText("_ _ _ _ _ _ _ _ _ _-_");
         jTextField8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField8ActionPerformed(evt);
@@ -168,11 +173,11 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel3)
                         .addGap(28, 28, 28)
@@ -223,7 +228,7 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel2.setText("Função:");
+        jLabel2.setText("Função:  *");
 
         jCheckBox4.setText("Farmaceutico");
 
@@ -279,7 +284,13 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
                 .addGap(16, 16, 16))
         );
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/iconfinder_true-check-accept-approve_2075831.png"))); // NOI18N
         jButton2.setText("Cadastrar");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jMenu1.setText("Arquivo");
         jMenu1.addActionListener(new java.awt.event.ActionListener() {
@@ -428,6 +439,10 @@ public class CadastrarFuncionarios extends javax.swing.JFrame {
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
 
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        JOptionPane.showMessageDialog(null ,"Cadastro Realizado com Sucesso!");
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
